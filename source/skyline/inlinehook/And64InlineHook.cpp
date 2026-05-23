@@ -512,7 +512,7 @@ struct PACKED inline_hook_entry {
 };
 
 constexpr size_t inline_hook_size = sizeof(inline_hook_entry);
-constexpr size_t inline_hook_count = 0x1000;
+constexpr size_t inline_hook_count = 0x1500;
 constexpr size_t inline_hook_pool_size = inline_hook_size * inline_hook_count;
 
 //-------------------------------------------------------------------------

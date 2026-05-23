@@ -19,4 +19,3 @@ void* memmem(void* needle, size_t needleLen, void* haystack, size_t haystackLen)
 
 #ifdef __cplusplus
 }
-#endif
